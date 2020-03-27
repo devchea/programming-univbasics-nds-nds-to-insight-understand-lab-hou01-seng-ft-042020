@@ -7,6 +7,10 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-def print_first_directors_movie_titles
-  pp directors_database
+def print_first_director
+  i = 0
+when i < directors_database[0][:name].length do
+
+end
+
 end
