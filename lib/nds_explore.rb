@@ -4,14 +4,10 @@ require 'directors_database'
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
-  pp directors_database
-  nil
+  pp nds
 end
 
 def print_first_directors_movie_titles
-  index = 0
-  while index < directors_database[0][:movies].length do
-    puts directors_database[0][:movies][index][:title]
-    index += 1
-  end
+  puts directors_database[0][:movies]:title
+  # pp directors_database
 end
